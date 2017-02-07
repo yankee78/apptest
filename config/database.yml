@@ -82,5 +82,5 @@ production:
   <<: *default
   database: apptest_production
   host: localhost
-  username: apptest
+  username: njara
   password: 652727
