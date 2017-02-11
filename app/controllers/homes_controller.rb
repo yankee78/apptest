@@ -5,7 +5,7 @@ class HomesController < ApplicationController
   # GET /homes
   # GET /homes.json
   def static_index
-    
+    render :layout => 'static_layout'
   end
 
 

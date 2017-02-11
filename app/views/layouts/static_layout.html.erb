@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %></title>
+    <%= csrf_meta_tags %>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <link rel="stylesheet" href="css/jquery.countdown.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.countdown.js"></script>
+	<script src="js/script.js"></script> -->
+    <!--web-fonts-->
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'></head>
+	<link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
